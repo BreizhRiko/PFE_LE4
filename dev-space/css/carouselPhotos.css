@@ -32,3 +32,14 @@
     z-index: 1;
 }
 
+#voirEquipeBouton{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    opacity: 0.3;
+}
+
