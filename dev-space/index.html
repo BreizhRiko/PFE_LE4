@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="./css/spectre-icons.css">
     <link rel="stylesheet" href="./css/spectre-exp.css">
     <link rel="stylesheet" href="./css/yeo.css">
+    <link rel="stylesheet" href="css/contactDialog.css">
+    <link rel="stylesheet" href="css/carouselPhotos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <meta property="og:title" content="">
     <meta property="og:url" content="">
     <meta property="og:description" content="">
@@ -54,7 +58,7 @@
                         </h1>
                         <p>Nous proposons nos services aux entreprises souhaitant bénéficier de l'expertise d'un groupe de 7 étudiants
                             dans le cadre de la réalisation d'un projet complexe et innovant à forte valeur ajoutée.</p>
-                        <a class="btn btn-primary btn-lg btn-start" target="_blank" href="#y">Start a project today</a>
+                        <a class="btn btn-primary btn-lg btn-start" onclick="openDialog()">Contacter le groupe</a>
 
                     </div>
                 </div>
@@ -145,105 +149,9 @@
                 </div>
             </div>
         </div>
-        <div class="yeo-team" id="team">
-            <div class="container yeo-body">
-                <div class="columns">
-                    <div class="column col-12">
-                        <h2 class="feature-title">Meet Our Team</h2>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-1.jpg" alt=""></a>
-                        <a href=" "><span class="name">John Doe</span></a>
-                        <span class="title">DevOps</span>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-2.jpg" alt=""></a>
-                        <a href=" "><span class="name">Tinh Nguyen</span></a>
-                        <span class="title">Designer</span>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-3.jpg" alt=""></a>
-                        <a href=" "><span class="name">Maria Oto</span></a>
-                        <span class="title">Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="yeo-price" id="IG2I">
             <div class="container yeo-body  col-sm-12">
                 <div class="columns">
-
-                    <!--
-                    <div class="column col-4 col-sm-12">
-                        <div class="panel">
-                            <div class="panel-header">
-                                <div class="panel-title"><span>PRO</span></div>
-                            </div>
-                            <div class="panel-body">
-                                <p>
-                                    <span class="price">$2500 </span>
-                                    <span>/ month</span>
-                                </p>
-                                <ul>
-                                    <li><strong>10</strong> billable hours included per month.</li>
-                                    <li>Billable hourly rate of <strong>$300</strong> after the included 10 hours are utilized.</li>
-                                    <li>24/7/365 on-call and 99.9% SLA</li>
-                                    <li>Communication via ticketing system and e-mail.</li>
-                                </ul>
-                            </div>
-                            <div class="panel-footer">
-                                <button class="btn btn-primary btn-price">Contact Us</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="panel">
-                            <div class="panel-header">
-                                <div class="panel-title"><span>PREMIUM</span></div>
-                            </div>
-                            <div class="panel-body">
-                                <p>
-                                    <span class="price">$5000 </span>
-                                    <span>/ month</span>
-                                </p>
-                                <ul>
-                                    <li><strong>10</strong> billable hours included per month.</li>
-                                    <li>Billable hourly rate of <strong>$300</strong> after the included 10 hours are utilized.</li>
-                                    <li>24/7/365 on-call and 99.9% SLA</li>
-                                    <li>Communication via ticketing system and e-mail.</li>
-                                </ul>
-                            </div>
-                            <div class="panel-footer">
-                                <button class="btn btn-primary btn-price">Contact Us</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <div class="panel">
-                            <div class="panel-header">
-                                <div class="panel-title"><span>ENTERPRISE</span></div>
-                            </div>
-                            <div class="panel-body">
-                                <p>
-                                    <span class="price">$15000 </span>
-                                    <span>/ month</span>
-                                </p>
-                                <ul>
-                                    <li><strong>10</strong> billable hours included per month.</li>
-                                    <li>Billable hourly rate of <strong>$300</strong> after the included 10 hours are utilized.</li>
-                                    <li>24/7/365 on-call and 99.9% SLA</li>
-                                    <li>Communication via ticketing system and e-mail.</li>
-                                </ul>
-                            </div>
-                            <div class="panel-footer">
-                                <button class="btn btn-primary btn-price">Contact Us</button>
-                            </div>
-                        </div>
-                    </div>
-                    -->
-
-
                 </div>
             </div>
         </div>
@@ -251,22 +159,45 @@
             <div class="container yeo-body">
                 <div class="columns">
                     <div class="column col-12">
-                        <h2 class="feature-title">Meet Our Team</h2>
+                        <h2 class="feature-title">Rencontrer notre équipe</h2>
                     </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-1.jpg" alt=""></a>
-                        <a href="https://www.lapa.ninja/"><span class="name">John Doe</span></a>
-                        <span class="title">DevOps</span>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-2.jpg" alt=""></a>
-                        <a href="https://www.lapa.ninja/"><span class="name">Tinh Nguyen</span></a>
-                        <span class="title">Designer</span>
-                    </div>
-                    <div class="column col-4 col-sm-12">
-                        <a href=""><img class="s-circle" src="./images_template/team-3.jpg" alt=""></a>
-                        <a href="https://www.lapa.ninja/"><span class="name">Maria Oto</span></a>
-                        <span class="title">Developer</span>
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1260.jpg" class="d-block w-100" alt="Employee 1">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1257.jpg" class="d-block w-100" alt="Employee 2">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1267.jpg" class="d-block w-100" alt="Employee 3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1260.jpg" class="d-block w-100" alt="Employee 4">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1260.jpg" class="d-block w-100" alt="Employee 5">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/photo_equipes/IMG_1260.jpg" class="d-block w-100" alt="Employee 6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -344,6 +275,25 @@
                 </div>
             </div>
         </div>
+
+    <!-- Dialog to send email to the team -->
+    <div class="overlay" id="overlay">
+        <div class="dialog">
+            <button onclick="closeDialog()" class="close-btn">&times;</button>
+            <h2>Informations de contact</h2>
+            <ul>
+                <li><i class="fa fa-map-marker"></i> 123 rue de l'Entreprise, 75001 Paris</li>
+                <li><i class="fa fa-phone"></i> +33 1 23 45 67 89</li>
+                <li><i class="fa fa-envelope"></i> info@monentreprise.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
