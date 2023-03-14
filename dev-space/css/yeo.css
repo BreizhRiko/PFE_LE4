@@ -142,6 +142,17 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
     margin: 0 auto 2rem;
 }
 
+.feature-title-txt {
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: .5rem 0 .5rem 0;
+    opacity: 2;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #093dac;
+    margin: 0 auto 1rem;
+}
+
 .yeo-header .navbar {
     max-width: 1280px;
     margin: 0 auto;
@@ -354,6 +365,11 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
     font-size: 3.5rem;
 }
 
+.open-source-feature-txt {
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
 .yeo-open-source .btn-open-source {
     padding: .8rem 1.5rem;
     background: #fff;
@@ -456,6 +472,10 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
         font-size: 2rem;
     }
 
+    .open-source-feature-txt {
+        font-size: 0.5rem;
+    }
+
     .yeo-client img {
     height: 30px;
 }
@@ -479,6 +499,13 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
         font-size: 1rem;
         padding: 1rem 0 1rem 0;
         opacity: .5;
+    }
+
+    .feature-title-txt {
+        font-weight: 200;
+        font-size: 3rem;
+        padding: 1rem 0 1rem 0;
+    
     }
 
     .yeo-team {
