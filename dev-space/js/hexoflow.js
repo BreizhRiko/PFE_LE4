@@ -17,10 +17,22 @@ function openCV(personne) {
             window.open('application/CV_DUFLOT.pdf', '_blank');
             break;
         case 'jeanne':
-            window.open('application/CV_DUFLOT.pdf', '_blank');
+            window.open('application/SUEUR_CV.pdf', '_blank');
             break;
         case 'hugo':
             window.open('application/CV_DUFLOT.pdf', '_blank');
             break;
+        case 'eric':
+            window.open('application/CV_LeMeurEric_FR.pdf', '_blank');
+            break; 
+        case 'clement':
+            window.open('application/CV_DUFLOT.pdf', '_blank');
+            break; 
+        case 'antoine':
+            window.open('application/cv_v3_fr.pdf', '_blank');
+            break;   
+        case 'florian':
+            window.open('application/CV_DUFLOT.pdf', '_blank');
+            break;         
     }
 }
