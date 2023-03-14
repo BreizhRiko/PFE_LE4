@@ -1,14 +1,3 @@
-// ouverture et fermeture du dialogue afficher infos équipes
-function openDialog() {
-    document.getElementById("overlay").style.visibility = "visible";
-    document.getElementById("overlay").style.opacity = "1";
-}
-
-function closeDialog() {
-    document.getElementById("overlay").style.visibility = "hidden";
-    document.getElementById("overlay").style.opacity = "0";
-}
-
 
 // ouvrir un cv au format pdf
 function openCV(personne) {
@@ -35,4 +24,8 @@ function openCV(personne) {
             window.open('application/CV_DUFLOT.pdf', '_blank');
             break;         
     }
+}
+
+function openPlaquette() {
+    window.open('application/CV_DUFLOT.pdf', '_blank');
 }
