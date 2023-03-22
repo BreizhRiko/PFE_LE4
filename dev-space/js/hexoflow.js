@@ -9,7 +9,7 @@ function openCV(personne) {
             window.open('application/SUEUR_CV.pdf', '_blank');
             break;
         case 'hugo':
-            window.open('application/CV_DUFLOT.pdf', '_blank');
+            window.open('application/Hugo_lux_CV.pdf', '_blank');
             break;
         case 'eric':
             window.open('application/CV_LeMeurEric_FR.pdf', '_blank');
