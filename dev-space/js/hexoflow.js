@@ -27,5 +27,5 @@ function openCV(personne) {
 }
 
 function openPlaquette() {
-    window.open('application/CV_DUFLOT.pdf', '_blank');
+    window.open('images/information/V2-Hexoflow-Plaquette.pdf', '_blank');
 }
