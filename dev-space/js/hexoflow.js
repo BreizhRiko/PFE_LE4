@@ -21,7 +21,7 @@ function openCV(personne) {
             window.open('application/cv_v3_fr.pdf', '_blank');
             break;   
         case 'florian':
-            window.open('', '_blank');
+            window.open('application/CVFlo2023.pdf', '_blank');
             break;         
     }
 }
