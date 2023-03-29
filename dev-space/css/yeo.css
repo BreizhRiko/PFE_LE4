@@ -282,6 +282,18 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
     opacity: .5;
 }
 
+.yeo-team .title-texte1 {
+    margin-top: 20px;
+    font-size: .8rem;
+    opacity: .5;
+}
+
+.yeo-team .title-texte2 {
+    margin-top: 5px;
+    font-size: .8rem;
+    opacity: .5;
+}
+
 
 .yeo-team img {
     max-width: 250px;
@@ -529,6 +541,20 @@ width: 100%;
     }
 
     .yeo-team .title {
+        font-size: .8rem;
+        opacity: .5;
+        padding-bottom: 2rem;
+        display: block;
+    }
+
+    .yeo-team .title-texte1 {
+        font-size: .8rem;
+        opacity: .5;
+        padding-bottom: 2rem;
+        display: block;
+    }
+
+    .yeo-team .title-texte2 {
         font-size: .8rem;
         opacity: .5;
         padding-bottom: 2rem;
