@@ -15,7 +15,7 @@ function openCV(personne) {
             window.open('application/CV_LeMeurEric_2023.pdf', '_blank');
             break; 
         case 'clement':
-            window.open('application/CV_DUFLOT.pdf', '_blank');
+            window.open('application/clement_becerra.pdf', '_blank');
             break; 
         case 'antoine':
             window.open('application/cv_v3_fr.pdf', '_blank');
