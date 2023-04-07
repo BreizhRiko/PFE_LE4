@@ -65,7 +65,19 @@ background-image: -o-linear-gradient(44deg, #0C0091 0%, #00A87E 100%);
 background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
 }
 
+.yeo-slogan .slogan-txt {
+    display: block;
+}
+
 .yeo-slogan .slogan-bold {
+    display: block;
+}
+
+.yeo-slogan .slogan-bold-s {
+    display: block;
+}
+
+.yeo-slogan .slogan-bold-ss {
     display: block;
 }
 
@@ -119,6 +131,22 @@ background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
     color: #00ffd4;
 }
 
+.slogan .slogan-txt{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.slogan .slogan-bold-s{
+    color: #00ffd4;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.slogan .slogan-bold-ss {
+    color: #00ffd4;
+    font-weight: 400;
+    font-size: 2rem;
+}
 
 .slogan .btn-start {
     padding: .9rem 1.5rem;

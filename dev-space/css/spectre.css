@@ -1589,6 +1589,18 @@ video.video-responsive::before {
   overflow-x: auto;
 }
 
+.css-slogan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.css-slogan > div {
+  flex-basis: 48%;
+}
+
+
 .column {
   -ms-flex: 1;
   flex: 1;
