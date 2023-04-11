@@ -3,22 +3,22 @@
 function openCV(personne) {
     switch (personne) {
         case 'robin':
-            window.open('application/CV_DUFLOT.pdf', '_blank');
+            window.open('application/CV_DUFLOT_3.pdf', '_blank');
             break;
         case 'jeanne':
-            window.open('application/SUEUR_CV.pdf', '_blank');
+            window.open('application/CV_jeanne_V2.pdf', '_blank');
             break;
         case 'hugo':
-            window.open('application/Hugo_lux_CV.pdf', '_blank');
+            window.open('application/CV_Hugo_lux.pdf', '_blank');
             break;
         case 'eric':
             window.open('application/CV_LeMeurEric_2023_v2.pdf', '_blank');
             break; 
         case 'clement':
-            window.open('application/clement_becerra.pdf', '_blank');
+            window.open('application/CV_clement_becerra.pdf', '_blank');
             break; 
         case 'antoine':
-            window.open('application/cv_v3_fr.pdf', '_blank');
+            window.open('application/CV_FR_HEBERT_v2.pdf', '_blank');
             break;   
         case 'florian':
             window.open('application/CVFlo2023.pdf', '_blank');
