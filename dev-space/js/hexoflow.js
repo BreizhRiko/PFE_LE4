@@ -6,7 +6,7 @@ function openCV(personne) {
             window.open('application/CV_DUFLOT_3.pdf', '_blank');
             break;
         case 'jeanne':
-            window.open('application/CV_jeanne_V2.pdf', '_blank');
+            window.open('application/CV_Jeanne_V2.pdf', '_blank');
             break;
         case 'hugo':
             window.open('application/CV_Hugo_lux.pdf', '_blank');
